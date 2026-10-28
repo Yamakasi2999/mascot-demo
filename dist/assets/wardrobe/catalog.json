@@ -1,0 +1,222 @@
+[
+  {
+    "id": "collar-01",
+    "slot": "collar",
+    "name": "Лапки и кристалл",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-01.png",
+    "width": 569,
+    "height": 387
+  },
+  {
+    "id": "collar-02",
+    "slot": "collar",
+    "name": "Звёздный кот",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-02.png",
+    "width": 571,
+    "height": 425
+  },
+  {
+    "id": "collar-03",
+    "slot": "collar",
+    "name": "Бантик",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-03.png",
+    "width": 543,
+    "height": 369
+  },
+  {
+    "id": "collar-04",
+    "slot": "collar",
+    "name": "Весёлый кот",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-04.png",
+    "width": 611,
+    "height": 449
+  },
+  {
+    "id": "collar-05",
+    "slot": "collar",
+    "name": "Солнечный кот",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-05.png",
+    "width": 570,
+    "height": 410
+  },
+  {
+    "id": "collar-06",
+    "slot": "collar",
+    "name": "Лапки и самоцвет",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-06.png",
+    "width": 585,
+    "height": 454
+  },
+  {
+    "id": "collar-07",
+    "slot": "collar",
+    "name": "Сердечки",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-07.png",
+    "width": 581,
+    "height": 394
+  },
+  {
+    "id": "collar-08",
+    "slot": "collar",
+    "name": "Лунные лапки",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-08.png",
+    "width": 579,
+    "height": 416
+  },
+  {
+    "id": "collar-09",
+    "slot": "collar",
+    "name": "Кошачий аметист",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-09.png",
+    "width": 616,
+    "height": 422
+  },
+  {
+    "id": "collar-10",
+    "slot": "collar",
+    "name": "Неоновый",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/collar-10.png",
+    "width": 625,
+    "height": 410
+  },
+  {
+    "id": "glasses-01",
+    "slot": "glasses",
+    "name": "Розовый неон",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/glasses-01.png",
+    "width": 594,
+    "height": 297
+  },
+  {
+    "id": "glasses-02",
+    "slot": "glasses",
+    "name": "Фиолетовый кот",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/glasses-02.png",
+    "width": 618,
+    "height": 308
+  },
+  {
+    "id": "glasses-03",
+    "slot": "glasses",
+    "name": "Тропический кот",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/glasses-03.png",
+    "width": 616,
+    "height": 311
+  },
+  {
+    "id": "glasses-04",
+    "slot": "glasses",
+    "name": "Лайм",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/glasses-04.png",
+    "width": 647,
+    "height": 261
+  },
+  {
+    "id": "glasses-05",
+    "slot": "glasses",
+    "name": "Розовый квадрат",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/glasses-05.png",
+    "width": 641,
+    "height": 324
+  },
+  {
+    "id": "glasses-06",
+    "slot": "glasses",
+    "name": "Голубое небо",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/glasses-06.png",
+    "width": 690,
+    "height": 344
+  },
+  {
+    "id": "glasses-07",
+    "slot": "glasses",
+    "name": "Конфетти",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/glasses-07.png",
+    "width": 695,
+    "height": 296
+  },
+  {
+    "id": "glasses-08",
+    "slot": "glasses",
+    "name": "Солнце",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/glasses-08.png",
+    "width": 680,
+    "height": 301
+  },
+  {
+    "id": "hat-01",
+    "slot": "hat",
+    "name": "Бейсболка",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/hat-01.png",
+    "width": 566,
+    "height": 465
+  },
+  {
+    "id": "hat-02",
+    "slot": "hat",
+    "name": "Шляпа звезды",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/hat-02.png",
+    "width": 662,
+    "height": 478
+  },
+  {
+    "id": "hat-03",
+    "slot": "hat",
+    "name": "Разноцветная кепка",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/hat-03.png",
+    "width": 615,
+    "height": 449
+  },
+  {
+    "id": "hat-04",
+    "slot": "hat",
+    "name": "Волшебник",
+    "unlocked": true,
+    "equipped": false,
+    "file": "assets/wardrobe/hat-04.png",
+    "width": 630,
+    "height": 535
+  }
+]
