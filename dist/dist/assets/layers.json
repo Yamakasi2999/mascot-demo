@@ -1,0 +1,270 @@
+[
+  {
+    "id": "idle",
+    "label": "Спокойствие",
+    "layers": [
+      {
+        "name": "tail",
+        "path": "assets/layers/idle/tail.png",
+        "x": 181.43864229765015,
+        "y": 463.83028720626635,
+        "w": 89,
+        "h": 103
+      },
+      {
+        "name": "body",
+        "path": "assets/layers/idle/body.png",
+        "x": 226.4125326370757,
+        "y": 463.83028720626635,
+        "w": 382,
+        "h": 266
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/idle/head.png",
+        "x": 181.43864229765015,
+        "y": 80.27937336814621,
+        "w": 436,
+        "h": 384
+      }
+    ]
+  },
+  {
+    "id": "happy",
+    "label": "Радость",
+    "layers": [
+      {
+        "name": "tail",
+        "path": "assets/layers/happy/tail.png",
+        "x": 174.97794117647058,
+        "y": 465.8921568627451,
+        "w": 90,
+        "h": 105
+      },
+      {
+        "name": "body",
+        "path": "assets/layers/happy/body.png",
+        "x": 219.58578431372547,
+        "y": 465.8921568627451,
+        "w": 394,
+        "h": 264
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/happy/head.png",
+        "x": 174.1813725490196,
+        "y": 80.35294117647058,
+        "w": 451,
+        "h": 386
+      }
+    ]
+  },
+  {
+    "id": "sad",
+    "label": "Грусть",
+    "layers": [
+      {
+        "name": "tail",
+        "path": "assets/layers/sad/tail.png",
+        "x": 183.1039603960396,
+        "y": 468.9084158415842,
+        "w": 87,
+        "h": 114
+      },
+      {
+        "name": "body",
+        "path": "assets/layers/sad/body.png",
+        "x": 223.32673267326734,
+        "y": 468.9084158415842,
+        "w": 385,
+        "h": 261
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/sad/head.png",
+        "x": 183.1039603960396,
+        "y": 80.35643564356437,
+        "w": 433,
+        "h": 389
+      }
+    ]
+  },
+  {
+    "id": "sleep",
+    "label": "Сон",
+    "layers": [
+      {
+        "name": "body",
+        "path": "assets/layers/sleep/body.png",
+        "x": 44.52408477842004,
+        "y": 490.84393063583815,
+        "w": 710,
+        "h": 239
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/sleep/head.png",
+        "x": 54.784200385356456,
+        "y": 277.43352601156073,
+        "w": 462,
+        "h": 409
+      }
+    ]
+  },
+  {
+    "id": "study",
+    "label": "Изучение",
+    "layers": [
+      {
+        "name": "tail",
+        "path": "assets/layers/study/tail.png",
+        "x": 153.12224938875306,
+        "y": 528.5403422982886,
+        "w": 62,
+        "h": 21
+      },
+      {
+        "name": "body",
+        "path": "assets/layers/study/body.png",
+        "x": 145.1760391198044,
+        "y": 528.5403422982886,
+        "w": 398,
+        "h": 202
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/study/head.png",
+        "x": 116.56968215158925,
+        "y": 80.37408312958436,
+        "w": 567,
+        "h": 448
+      }
+    ]
+  },
+  {
+    "id": "wow",
+    "label": "Восторг",
+    "layers": [
+      {
+        "name": "body",
+        "path": "assets/layers/wow/body.png",
+        "x": 251.33333333333331,
+        "y": 453.6666666666667,
+        "w": 345,
+        "h": 276
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/wow/head.png",
+        "x": 163.22222222222223,
+        "y": 79.55555555555556,
+        "w": 474,
+        "h": 374
+      }
+    ]
+  },
+  {
+    "id": "like",
+    "label": "Одобрение",
+    "layers": [
+      {
+        "name": "tail",
+        "path": "assets/layers/like/tail.png",
+        "x": 544.7532467532467,
+        "y": 457.53246753246754,
+        "w": 100,
+        "h": 136
+      },
+      {
+        "name": "body",
+        "path": "assets/layers/like/body.png",
+        "x": 152.2207792207792,
+        "y": 457.53246753246754,
+        "w": 421,
+        "h": 273
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/like/head.png",
+        "x": 152.2207792207792,
+        "y": 80.47619047619048,
+        "w": 495,
+        "h": 377
+      }
+    ]
+  },
+  {
+    "id": "party",
+    "label": "Праздник",
+    "layers": [
+      {
+        "name": "body",
+        "path": "assets/layers/party/body.png",
+        "x": 154.66666666666666,
+        "y": 453.6666666666667,
+        "w": 484,
+        "h": 276
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/party/head.png",
+        "x": 125.77777777777777,
+        "y": 79.55555555555556,
+        "w": 549,
+        "h": 374
+      }
+    ]
+  },
+  {
+    "id": "wave",
+    "label": "Приветствие",
+    "layers": [
+      {
+        "name": "tail",
+        "path": "assets/layers/wave/tail.png",
+        "x": 162.06638115631694,
+        "y": 461.423982869379,
+        "w": 71,
+        "h": 125
+      },
+      {
+        "name": "body",
+        "path": "assets/layers/wave/body.png",
+        "x": 202.43040685224838,
+        "y": 461.423982869379,
+        "w": 394,
+        "h": 269
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/wave/head.png",
+        "x": 166.2419700214133,
+        "y": 80.05353319057816,
+        "w": 472,
+        "h": 381
+      }
+    ]
+  },
+  {
+    "id": "laugh",
+    "label": "Смех",
+    "layers": [
+      {
+        "name": "body",
+        "path": "assets/layers/laugh/body.png",
+        "x": 174.70967741935485,
+        "y": 468.98924731182797,
+        "w": 419,
+        "h": 261
+      },
+      {
+        "name": "head",
+        "path": "assets/layers/laugh/head.png",
+        "x": 150.94623655913978,
+        "y": 80.38709677419355,
+        "w": 499,
+        "h": 389
+      }
+    ]
+  }
+]

@@ -1,0 +1,1883 @@
+{
+  "artboard": "Mascot",
+  "animations": [
+    "idle",
+    "happy",
+    "sad",
+    "sleep",
+    "study",
+    "wow",
+    "like",
+    "party",
+    "wave",
+    "laugh"
+  ],
+  "duration": 4.8,
+  "fps": 30,
+  "source": "source/base.png",
+  "nodes": [
+    {
+      "name": "root",
+      "parent": null,
+      "global_xy": [
+        431,
+        850
+      ],
+      "x": 431,
+      "y": 850,
+      "id": 1
+    },
+    {
+      "name": "tail-base",
+      "parent": "root",
+      "global_xy": [
+        268,
+        625
+      ],
+      "x": -163,
+      "y": -225,
+      "id": 2
+    },
+    {
+      "name": "tail-mid",
+      "parent": "tail-base",
+      "global_xy": [
+        236,
+        581
+      ],
+      "x": -32,
+      "y": -44,
+      "id": 3
+    },
+    {
+      "name": "tail-tip",
+      "parent": "tail-mid",
+      "global_xy": [
+        220,
+        532
+      ],
+      "x": -16,
+      "y": -49,
+      "id": 4
+    },
+    {
+      "name": "body",
+      "parent": "root",
+      "global_xy": [
+        460,
+        785
+      ],
+      "x": 29,
+      "y": -65,
+      "id": 5
+    },
+    {
+      "name": "hind-left",
+      "parent": "root",
+      "global_xy": [
+        285,
+        793
+      ],
+      "x": -146,
+      "y": -57,
+      "id": 6
+    },
+    {
+      "name": "hind-right",
+      "parent": "root",
+      "global_xy": [
+        637,
+        793
+      ],
+      "x": 206,
+      "y": -57,
+      "id": 7
+    },
+    {
+      "name": "arm-left",
+      "parent": "root",
+      "global_xy": [
+        346,
+        567
+      ],
+      "x": -85,
+      "y": -283,
+      "id": 8
+    },
+    {
+      "name": "paw-left",
+      "parent": "arm-left",
+      "global_xy": [
+        382,
+        735
+      ],
+      "x": 36,
+      "y": 168,
+      "id": 9
+    },
+    {
+      "name": "arm-right",
+      "parent": "root",
+      "global_xy": [
+        572,
+        567
+      ],
+      "x": 141,
+      "y": -283,
+      "id": 10
+    },
+    {
+      "name": "paw-right",
+      "parent": "arm-right",
+      "global_xy": [
+        534,
+        735
+      ],
+      "x": -38,
+      "y": 168,
+      "id": 11
+    },
+    {
+      "name": "head",
+      "parent": "root",
+      "global_xy": [
+        459,
+        510
+      ],
+      "x": 28,
+      "y": -340,
+      "id": 12
+    },
+    {
+      "name": "ear-left",
+      "parent": "head",
+      "global_xy": [
+        327,
+        220
+      ],
+      "x": -132,
+      "y": -290,
+      "id": 13
+    },
+    {
+      "name": "ear-right",
+      "parent": "head",
+      "global_xy": [
+        603,
+        217
+      ],
+      "x": 144,
+      "y": -293,
+      "id": 14
+    },
+    {
+      "name": "eye-left",
+      "parent": "head",
+      "global_xy": [
+        359,
+        335
+      ],
+      "x": -100,
+      "y": -175,
+      "id": 15
+    },
+    {
+      "name": "pupil-left",
+      "parent": "eye-left",
+      "global_xy": [
+        359,
+        335
+      ],
+      "x": 0,
+      "y": 0,
+      "id": 16
+    },
+    {
+      "name": "lid-left",
+      "parent": "head",
+      "global_xy": [
+        359,
+        335
+      ],
+      "x": -100,
+      "y": -175,
+      "id": 17
+    },
+    {
+      "name": "brow-left",
+      "parent": "head",
+      "global_xy": [
+        410,
+        235
+      ],
+      "x": -49,
+      "y": -275,
+      "id": 18
+    },
+    {
+      "name": "eye-right",
+      "parent": "head",
+      "global_xy": [
+        560,
+        335
+      ],
+      "x": 101,
+      "y": -175,
+      "id": 19
+    },
+    {
+      "name": "pupil-right",
+      "parent": "eye-right",
+      "global_xy": [
+        560,
+        335
+      ],
+      "x": 0,
+      "y": 0,
+      "id": 20
+    },
+    {
+      "name": "lid-right",
+      "parent": "head",
+      "global_xy": [
+        560,
+        335
+      ],
+      "x": 101,
+      "y": -175,
+      "id": 21
+    },
+    {
+      "name": "brow-right",
+      "parent": "head",
+      "global_xy": [
+        514,
+        235
+      ],
+      "x": 55,
+      "y": -275,
+      "id": 22
+    },
+    {
+      "name": "mouth",
+      "parent": "head",
+      "global_xy": [
+        459,
+        444
+      ],
+      "x": 0,
+      "y": -66,
+      "id": 23
+    },
+    {
+      "name": "nose",
+      "parent": "head",
+      "global_xy": [
+        459,
+        395
+      ],
+      "x": 0,
+      "y": -115,
+      "id": 24
+    },
+    {
+      "name": "whisker-left",
+      "parent": "head",
+      "global_xy": [
+        301,
+        419
+      ],
+      "x": -158,
+      "y": -91,
+      "id": 25
+    },
+    {
+      "name": "whisker-right",
+      "parent": "head",
+      "global_xy": [
+        622,
+        418
+      ],
+      "x": 163,
+      "y": -92,
+      "id": 26
+    },
+    {
+      "name": "tear",
+      "parent": "head",
+      "global_xy": [
+        391,
+        365
+      ],
+      "x": -68,
+      "y": -145,
+      "id": 27
+    },
+    {
+      "name": "star-left",
+      "parent": "eye-left",
+      "global_xy": [
+        359,
+        335
+      ],
+      "x": 0,
+      "y": 0,
+      "id": 28
+    },
+    {
+      "name": "star-right",
+      "parent": "eye-right",
+      "global_xy": [
+        560,
+        335
+      ],
+      "x": 0,
+      "y": 0,
+      "id": 29
+    },
+    {
+      "name": "lens",
+      "parent": "head",
+      "global_xy": [
+        359,
+        335
+      ],
+      "x": -100,
+      "y": -175,
+      "id": 30
+    },
+    {
+      "name": "lens-eye",
+      "parent": "lens",
+      "global_xy": [
+        359,
+        335
+      ],
+      "x": 0,
+      "y": 0,
+      "id": 31
+    },
+    {
+      "name": "collar",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 32
+    },
+    {
+      "name": "medal",
+      "parent": "collar",
+      "global_xy": [
+        458,
+        555
+      ],
+      "x": -1,
+      "y": 18,
+      "id": 33
+    },
+    {
+      "name": "zzz0",
+      "parent": "root",
+      "global_xy": [
+        620,
+        220
+      ],
+      "x": 189,
+      "y": -630,
+      "id": 34
+    },
+    {
+      "name": "zzz1",
+      "parent": "root",
+      "global_xy": [
+        649,
+        178
+      ],
+      "x": 218,
+      "y": -672,
+      "id": 35
+    },
+    {
+      "name": "zzz2",
+      "parent": "root",
+      "global_xy": [
+        678,
+        136
+      ],
+      "x": 247,
+      "y": -714,
+      "id": 36
+    },
+    {
+      "name": "confetti0",
+      "parent": "root",
+      "global_xy": [
+        210,
+        200
+      ],
+      "x": -221,
+      "y": -650,
+      "id": 37
+    },
+    {
+      "name": "confetti1",
+      "parent": "root",
+      "global_xy": [
+        710,
+        200
+      ],
+      "x": 279,
+      "y": -650,
+      "id": 38
+    },
+    {
+      "name": "confetti2",
+      "parent": "root",
+      "global_xy": [
+        210,
+        268
+      ],
+      "x": -221,
+      "y": -582,
+      "id": 39
+    },
+    {
+      "name": "confetti3",
+      "parent": "root",
+      "global_xy": [
+        710,
+        268
+      ],
+      "x": 279,
+      "y": -582,
+      "id": 40
+    },
+    {
+      "name": "confetti4",
+      "parent": "root",
+      "global_xy": [
+        210,
+        336
+      ],
+      "x": -221,
+      "y": -514,
+      "id": 41
+    },
+    {
+      "name": "confetti5",
+      "parent": "root",
+      "global_xy": [
+        710,
+        336
+      ],
+      "x": 279,
+      "y": -514,
+      "id": 42
+    },
+    {
+      "name": "confetti6",
+      "parent": "root",
+      "global_xy": [
+        210,
+        404
+      ],
+      "x": -221,
+      "y": -446,
+      "id": 43
+    },
+    {
+      "name": "confetti7",
+      "parent": "root",
+      "global_xy": [
+        710,
+        404
+      ],
+      "x": 279,
+      "y": -446,
+      "id": 44
+    },
+    {
+      "name": "confetti8",
+      "parent": "root",
+      "global_xy": [
+        210,
+        472
+      ],
+      "x": -221,
+      "y": -378,
+      "id": 45
+    },
+    {
+      "name": "confetti9",
+      "parent": "root",
+      "global_xy": [
+        710,
+        472
+      ],
+      "x": 279,
+      "y": -378,
+      "id": 46
+    },
+    {
+      "name": "confetti10",
+      "parent": "root",
+      "global_xy": [
+        210,
+        540
+      ],
+      "x": -221,
+      "y": -310,
+      "id": 47
+    },
+    {
+      "name": "confetti11",
+      "parent": "root",
+      "global_xy": [
+        710,
+        540
+      ],
+      "x": 279,
+      "y": -310,
+      "id": 48
+    },
+    {
+      "name": "wear-collar-01",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 49
+    },
+    {
+      "name": "wear-collar-02",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 50
+    },
+    {
+      "name": "wear-collar-03",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 51
+    },
+    {
+      "name": "wear-collar-04",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 52
+    },
+    {
+      "name": "wear-collar-05",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 53
+    },
+    {
+      "name": "wear-collar-06",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 54
+    },
+    {
+      "name": "wear-collar-07",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 55
+    },
+    {
+      "name": "wear-collar-08",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 56
+    },
+    {
+      "name": "wear-collar-09",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 57
+    },
+    {
+      "name": "wear-collar-10",
+      "parent": "root",
+      "global_xy": [
+        459,
+        537
+      ],
+      "x": 28,
+      "y": -313,
+      "id": 58
+    },
+    {
+      "name": "wear-glasses-01",
+      "parent": "head",
+      "global_xy": [
+        459,
+        335
+      ],
+      "x": 0,
+      "y": -175,
+      "id": 59
+    },
+    {
+      "name": "wear-glasses-02",
+      "parent": "head",
+      "global_xy": [
+        459,
+        335
+      ],
+      "x": 0,
+      "y": -175,
+      "id": 60
+    },
+    {
+      "name": "wear-glasses-03",
+      "parent": "head",
+      "global_xy": [
+        459,
+        335
+      ],
+      "x": 0,
+      "y": -175,
+      "id": 61
+    },
+    {
+      "name": "wear-glasses-04",
+      "parent": "head",
+      "global_xy": [
+        459,
+        335
+      ],
+      "x": 0,
+      "y": -175,
+      "id": 62
+    },
+    {
+      "name": "wear-glasses-05",
+      "parent": "head",
+      "global_xy": [
+        459,
+        335
+      ],
+      "x": 0,
+      "y": -175,
+      "id": 63
+    },
+    {
+      "name": "wear-glasses-06",
+      "parent": "head",
+      "global_xy": [
+        459,
+        335
+      ],
+      "x": 0,
+      "y": -175,
+      "id": 64
+    },
+    {
+      "name": "wear-glasses-07",
+      "parent": "head",
+      "global_xy": [
+        459,
+        335
+      ],
+      "x": 0,
+      "y": -175,
+      "id": 65
+    },
+    {
+      "name": "wear-glasses-08",
+      "parent": "head",
+      "global_xy": [
+        459,
+        335
+      ],
+      "x": 0,
+      "y": -175,
+      "id": 66
+    },
+    {
+      "name": "wear-hat-01",
+      "parent": "head",
+      "global_xy": [
+        459,
+        200
+      ],
+      "x": 0,
+      "y": -310,
+      "id": 67
+    },
+    {
+      "name": "wear-hat-02",
+      "parent": "head",
+      "global_xy": [
+        459,
+        200
+      ],
+      "x": 0,
+      "y": -310,
+      "id": 68
+    },
+    {
+      "name": "wear-hat-03",
+      "parent": "head",
+      "global_xy": [
+        459,
+        200
+      ],
+      "x": 0,
+      "y": -310,
+      "id": 69
+    },
+    {
+      "name": "wear-hat-04",
+      "parent": "head",
+      "global_xy": [
+        459,
+        200
+      ],
+      "x": 0,
+      "y": -310,
+      "id": 70
+    }
+  ],
+  "layers": [
+    {
+      "name": "tail-base",
+      "bone": "tail-base",
+      "file": "tail-base.png",
+      "box": [
+        212,
+        550,
+        283,
+        655
+      ]
+    },
+    {
+      "name": "tail-mid",
+      "bone": "tail-mid",
+      "file": "tail-mid.png",
+      "box": [
+        183,
+        505,
+        280,
+        620
+      ]
+    },
+    {
+      "name": "tail-tip",
+      "bone": "tail-tip",
+      "file": "tail-tip.png",
+      "box": [
+        183,
+        476,
+        266,
+        547
+      ]
+    },
+    {
+      "name": "body",
+      "bone": "body",
+      "file": "body.png",
+      "box": [
+        250,
+        505,
+        655,
+        818
+      ]
+    },
+    {
+      "name": "hind-left",
+      "bone": "hind-left",
+      "file": "hind-left.png",
+      "box": [
+        235,
+        727,
+        340,
+        823
+      ]
+    },
+    {
+      "name": "hind-right",
+      "bone": "hind-right",
+      "file": "hind-right.png",
+      "box": [
+        585,
+        725,
+        685,
+        819
+      ]
+    },
+    {
+      "name": "upper-arm-left",
+      "bone": "arm-left",
+      "file": "upper-arm-left.png",
+      "box": [
+        303,
+        536,
+        447,
+        778
+      ]
+    },
+    {
+      "name": "forearm-left",
+      "bone": "paw-left",
+      "file": "forearm-left.png",
+      "box": [
+        322,
+        691,
+        453,
+        850
+      ]
+    },
+    {
+      "name": "upper-arm-right",
+      "bone": "arm-right",
+      "file": "upper-arm-right.png",
+      "box": [
+        475,
+        537,
+        613,
+        776
+      ]
+    },
+    {
+      "name": "forearm-right",
+      "bone": "paw-right",
+      "file": "forearm-right.png",
+      "box": [
+        470,
+        690,
+        594,
+        849
+      ]
+    },
+    {
+      "name": "gold-collar",
+      "bone": "collar",
+      "file": "gold-collar.png",
+      "box": [
+        315,
+        498,
+        602,
+        579
+      ]
+    },
+    {
+      "name": "medal-strap",
+      "bone": "collar",
+      "file": "medal-strap.png",
+      "box": [
+        439,
+        531,
+        485,
+        573
+      ]
+    },
+    {
+      "name": "item-collar-01",
+      "bone": "wear-collar-01",
+      "file": "item-collar-01.png",
+      "box": [
+        304,
+        493,
+        614,
+        641
+      ]
+    },
+    {
+      "name": "item-collar-02",
+      "bone": "wear-collar-02",
+      "file": "item-collar-02.png",
+      "box": [
+        304,
+        493,
+        614,
+        655
+      ]
+    },
+    {
+      "name": "item-collar-03",
+      "bone": "wear-collar-03",
+      "file": "item-collar-03.png",
+      "box": [
+        304,
+        493,
+        614,
+        640
+      ]
+    },
+    {
+      "name": "item-collar-04",
+      "bone": "wear-collar-04",
+      "file": "item-collar-04.png",
+      "box": [
+        304,
+        493,
+        614,
+        652
+      ]
+    },
+    {
+      "name": "item-collar-05",
+      "bone": "wear-collar-05",
+      "file": "item-collar-05.png",
+      "box": [
+        304,
+        493,
+        614,
+        649
+      ]
+    },
+    {
+      "name": "item-collar-06",
+      "bone": "wear-collar-06",
+      "file": "item-collar-06.png",
+      "box": [
+        304,
+        493,
+        614,
+        661
+      ]
+    },
+    {
+      "name": "item-collar-07",
+      "bone": "wear-collar-07",
+      "file": "item-collar-07.png",
+      "box": [
+        304,
+        493,
+        614,
+        640
+      ]
+    },
+    {
+      "name": "item-collar-08",
+      "bone": "wear-collar-08",
+      "file": "item-collar-08.png",
+      "box": [
+        304,
+        493,
+        614,
+        649
+      ]
+    },
+    {
+      "name": "item-collar-09",
+      "bone": "wear-collar-09",
+      "file": "item-collar-09.png",
+      "box": [
+        304,
+        493,
+        614,
+        642
+      ]
+    },
+    {
+      "name": "item-collar-10",
+      "bone": "wear-collar-10",
+      "file": "item-collar-10.png",
+      "box": [
+        304,
+        493,
+        614,
+        635
+      ]
+    },
+    {
+      "name": "head",
+      "bone": "head",
+      "file": "head.png",
+      "box": [
+        239,
+        145,
+        679,
+        537
+      ]
+    },
+    {
+      "name": "ear-left",
+      "bone": "ear-left",
+      "file": "ear-left.png",
+      "box": [
+        223,
+        84,
+        402,
+        312
+      ]
+    },
+    {
+      "name": "ear-right",
+      "bone": "ear-right",
+      "file": "ear-right.png",
+      "box": [
+        509,
+        85,
+        696,
+        285
+      ]
+    },
+    {
+      "name": "eye-left",
+      "bone": "eye-left",
+      "file": "eye-left.png",
+      "box": [
+        307,
+        277,
+        413,
+        394
+      ]
+    },
+    {
+      "name": "happy-lid-left",
+      "bone": "lid-left",
+      "file": "happy-lid-left.png",
+      "box": [
+        308,
+        297,
+        410,
+        350
+      ]
+    },
+    {
+      "name": "sleep-lid-left",
+      "bone": "lid-left",
+      "file": "sleep-lid-left.png",
+      "box": [
+        311,
+        340,
+        408,
+        370
+      ]
+    },
+    {
+      "name": "brow-left",
+      "bone": "brow-left",
+      "file": "brow-left.png",
+      "box": [
+        379,
+        206,
+        441,
+        263
+      ]
+    },
+    {
+      "name": "eye-right",
+      "bone": "eye-right",
+      "file": "eye-right.png",
+      "box": [
+        507,
+        277,
+        614,
+        394
+      ]
+    },
+    {
+      "name": "happy-lid-right",
+      "bone": "lid-right",
+      "file": "happy-lid-right.png",
+      "box": [
+        509,
+        297,
+        611,
+        350
+      ]
+    },
+    {
+      "name": "sleep-lid-right",
+      "bone": "lid-right",
+      "file": "sleep-lid-right.png",
+      "box": [
+        512,
+        340,
+        609,
+        370
+      ]
+    },
+    {
+      "name": "brow-right",
+      "bone": "brow-right",
+      "file": "brow-right.png",
+      "box": [
+        483,
+        206,
+        545,
+        263
+      ]
+    },
+    {
+      "name": "nose",
+      "bone": "nose",
+      "file": "nose.png",
+      "box": [
+        428,
+        374,
+        490,
+        419
+      ]
+    },
+    {
+      "name": "smile",
+      "bone": "mouth",
+      "file": "smile.png",
+      "box": [
+        385,
+        413,
+        529,
+        463
+      ]
+    },
+    {
+      "name": "whisker-left",
+      "bone": "whisker-left",
+      "file": "whisker-left.png",
+      "box": [
+        261,
+        382,
+        332,
+        448
+      ]
+    },
+    {
+      "name": "whisker-right",
+      "bone": "whisker-right",
+      "file": "whisker-right.png",
+      "box": [
+        581,
+        372,
+        653,
+        437
+      ]
+    },
+    {
+      "name": "open-mouth",
+      "bone": "mouth",
+      "file": "open-mouth.png",
+      "box": [
+        392,
+        422,
+        528,
+        517
+      ]
+    },
+    {
+      "name": "sad-mouth",
+      "bone": "mouth",
+      "file": "sad-mouth.png",
+      "box": [
+        414,
+        415,
+        503,
+        480
+      ]
+    },
+    {
+      "name": "o-mouth",
+      "bone": "mouth",
+      "file": "o-mouth.png",
+      "box": [
+        440,
+        426,
+        480,
+        470
+      ]
+    },
+    {
+      "name": "tear",
+      "bone": "tear",
+      "file": "tear.png",
+      "box": [
+        375,
+        364,
+        408,
+        411
+      ]
+    },
+    {
+      "name": "star-left",
+      "bone": "star-left",
+      "file": "star-left.png",
+      "box": [
+        328,
+        302,
+        391,
+        370
+      ]
+    },
+    {
+      "name": "star-right",
+      "bone": "star-right",
+      "file": "star-right.png",
+      "box": [
+        529,
+        302,
+        592,
+        370
+      ]
+    },
+    {
+      "name": "pads-left",
+      "bone": "paw-left",
+      "file": "pads-left.png",
+      "box": [
+        347,
+        754,
+        429,
+        824
+      ]
+    },
+    {
+      "name": "pads-right",
+      "bone": "paw-right",
+      "file": "pads-right.png",
+      "box": [
+        493,
+        754,
+        575,
+        824
+      ]
+    },
+    {
+      "name": "magnified-eye",
+      "bone": "lens-eye",
+      "file": "magnified-eye.png",
+      "box": [
+        292,
+        265,
+        426,
+        406
+      ]
+    },
+    {
+      "name": "magnifier",
+      "bone": "lens",
+      "file": "magnifier.png",
+      "box": [
+        274,
+        250,
+        444,
+        490
+      ]
+    },
+    {
+      "name": "gold-medal",
+      "bone": "medal",
+      "file": "gold-medal.png",
+      "box": [
+        408,
+        545,
+        509,
+        644
+      ]
+    },
+    {
+      "name": "zzz0",
+      "bone": "zzz0",
+      "file": "zzz0.png",
+      "box": [
+        618,
+        208,
+        633,
+        225
+      ]
+    },
+    {
+      "name": "zzz1",
+      "bone": "zzz1",
+      "file": "zzz1.png",
+      "box": [
+        647,
+        168,
+        665,
+        188
+      ]
+    },
+    {
+      "name": "zzz2",
+      "bone": "zzz2",
+      "file": "zzz2.png",
+      "box": [
+        676,
+        129,
+        697,
+        152
+      ]
+    },
+    {
+      "name": "confetti0",
+      "bone": "confetti0",
+      "file": "confetti0.png",
+      "box": [
+        201,
+        187,
+        219,
+        213
+      ]
+    },
+    {
+      "name": "confetti1",
+      "bone": "confetti1",
+      "file": "confetti1.png",
+      "box": [
+        701,
+        187,
+        719,
+        213
+      ]
+    },
+    {
+      "name": "confetti2",
+      "bone": "confetti2",
+      "file": "confetti2.png",
+      "box": [
+        201,
+        255,
+        219,
+        281
+      ]
+    },
+    {
+      "name": "confetti3",
+      "bone": "confetti3",
+      "file": "confetti3.png",
+      "box": [
+        701,
+        255,
+        719,
+        281
+      ]
+    },
+    {
+      "name": "confetti4",
+      "bone": "confetti4",
+      "file": "confetti4.png",
+      "box": [
+        201,
+        323,
+        219,
+        349
+      ]
+    },
+    {
+      "name": "confetti5",
+      "bone": "confetti5",
+      "file": "confetti5.png",
+      "box": [
+        701,
+        323,
+        719,
+        349
+      ]
+    },
+    {
+      "name": "confetti6",
+      "bone": "confetti6",
+      "file": "confetti6.png",
+      "box": [
+        201,
+        391,
+        219,
+        417
+      ]
+    },
+    {
+      "name": "confetti7",
+      "bone": "confetti7",
+      "file": "confetti7.png",
+      "box": [
+        701,
+        391,
+        719,
+        417
+      ]
+    },
+    {
+      "name": "confetti8",
+      "bone": "confetti8",
+      "file": "confetti8.png",
+      "box": [
+        201,
+        459,
+        219,
+        485
+      ]
+    },
+    {
+      "name": "confetti9",
+      "bone": "confetti9",
+      "file": "confetti9.png",
+      "box": [
+        701,
+        459,
+        719,
+        485
+      ]
+    },
+    {
+      "name": "confetti10",
+      "bone": "confetti10",
+      "file": "confetti10.png",
+      "box": [
+        201,
+        527,
+        219,
+        553
+      ]
+    },
+    {
+      "name": "confetti11",
+      "bone": "confetti11",
+      "file": "confetti11.png",
+      "box": [
+        701,
+        527,
+        719,
+        553
+      ]
+    },
+    {
+      "name": "item-glasses-01",
+      "bone": "wear-glasses-01",
+      "file": "item-glasses-01.png",
+      "box": [
+        264,
+        214,
+        654,
+        409
+      ]
+    },
+    {
+      "name": "item-glasses-02",
+      "bone": "wear-glasses-02",
+      "file": "item-glasses-02.png",
+      "box": [
+        264,
+        215,
+        654,
+        409
+      ]
+    },
+    {
+      "name": "item-glasses-03",
+      "bone": "wear-glasses-03",
+      "file": "item-glasses-03.png",
+      "box": [
+        264,
+        213,
+        654,
+        410
+      ]
+    },
+    {
+      "name": "item-glasses-04",
+      "bone": "wear-glasses-04",
+      "file": "item-glasses-04.png",
+      "box": [
+        264,
+        250,
+        654,
+        407
+      ]
+    },
+    {
+      "name": "item-glasses-05",
+      "bone": "wear-glasses-05",
+      "file": "item-glasses-05.png",
+      "box": [
+        264,
+        213,
+        654,
+        410
+      ]
+    },
+    {
+      "name": "item-glasses-06",
+      "bone": "wear-glasses-06",
+      "file": "item-glasses-06.png",
+      "box": [
+        264,
+        215,
+        654,
+        409
+      ]
+    },
+    {
+      "name": "item-glasses-07",
+      "bone": "wear-glasses-07",
+      "file": "item-glasses-07.png",
+      "box": [
+        264,
+        245,
+        654,
+        411
+      ]
+    },
+    {
+      "name": "item-glasses-08",
+      "bone": "wear-glasses-08",
+      "file": "item-glasses-08.png",
+      "box": [
+        264,
+        242,
+        654,
+        415
+      ]
+    },
+    {
+      "name": "item-hat-01",
+      "bone": "wear-hat-01",
+      "file": "item-hat-01.png",
+      "box": [
+        244,
+        -24,
+        674,
+        230
+      ]
+    },
+    {
+      "name": "item-hat-02",
+      "bone": "wear-hat-02",
+      "file": "item-hat-02.png",
+      "box": [
+        244,
+        6,
+        674,
+        230
+      ]
+    },
+    {
+      "name": "item-hat-03",
+      "bone": "wear-hat-03",
+      "file": "item-hat-03.png",
+      "box": [
+        244,
+        4,
+        674,
+        230
+      ]
+    },
+    {
+      "name": "item-hat-04",
+      "bone": "wear-hat-04",
+      "file": "item-hat-04.png",
+      "box": [
+        244,
+        -33,
+        674,
+        230
+      ]
+    }
+  ],
+  "accessories": [
+    {
+      "id": "collar-01",
+      "slot": "collar",
+      "name": "Лапки и кристалл",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-01.png",
+      "width": 569,
+      "height": 387,
+      "animation": "equip-collar-01",
+      "layer": "item-collar-01"
+    },
+    {
+      "id": "collar-02",
+      "slot": "collar",
+      "name": "Звёздный кот",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-02.png",
+      "width": 571,
+      "height": 425,
+      "animation": "equip-collar-02",
+      "layer": "item-collar-02"
+    },
+    {
+      "id": "collar-03",
+      "slot": "collar",
+      "name": "Бантик",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-03.png",
+      "width": 543,
+      "height": 369,
+      "animation": "equip-collar-03",
+      "layer": "item-collar-03"
+    },
+    {
+      "id": "collar-04",
+      "slot": "collar",
+      "name": "Весёлый кот",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-04.png",
+      "width": 611,
+      "height": 449,
+      "animation": "equip-collar-04",
+      "layer": "item-collar-04"
+    },
+    {
+      "id": "collar-05",
+      "slot": "collar",
+      "name": "Солнечный кот",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-05.png",
+      "width": 570,
+      "height": 410,
+      "animation": "equip-collar-05",
+      "layer": "item-collar-05"
+    },
+    {
+      "id": "collar-06",
+      "slot": "collar",
+      "name": "Лапки и самоцвет",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-06.png",
+      "width": 585,
+      "height": 454,
+      "animation": "equip-collar-06",
+      "layer": "item-collar-06"
+    },
+    {
+      "id": "collar-07",
+      "slot": "collar",
+      "name": "Сердечки",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-07.png",
+      "width": 581,
+      "height": 394,
+      "animation": "equip-collar-07",
+      "layer": "item-collar-07"
+    },
+    {
+      "id": "collar-08",
+      "slot": "collar",
+      "name": "Лунные лапки",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-08.png",
+      "width": 579,
+      "height": 416,
+      "animation": "equip-collar-08",
+      "layer": "item-collar-08"
+    },
+    {
+      "id": "collar-09",
+      "slot": "collar",
+      "name": "Кошачий аметист",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-09.png",
+      "width": 616,
+      "height": 422,
+      "animation": "equip-collar-09",
+      "layer": "item-collar-09"
+    },
+    {
+      "id": "collar-10",
+      "slot": "collar",
+      "name": "Неоновый",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/collar-10.png",
+      "width": 625,
+      "height": 410,
+      "animation": "equip-collar-10",
+      "layer": "item-collar-10"
+    },
+    {
+      "id": "glasses-01",
+      "slot": "glasses",
+      "name": "Розовый неон",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/glasses-01.png",
+      "width": 594,
+      "height": 297,
+      "animation": "equip-glasses-01",
+      "layer": "item-glasses-01"
+    },
+    {
+      "id": "glasses-02",
+      "slot": "glasses",
+      "name": "Фиолетовый кот",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/glasses-02.png",
+      "width": 618,
+      "height": 308,
+      "animation": "equip-glasses-02",
+      "layer": "item-glasses-02"
+    },
+    {
+      "id": "glasses-03",
+      "slot": "glasses",
+      "name": "Тропический кот",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/glasses-03.png",
+      "width": 616,
+      "height": 311,
+      "animation": "equip-glasses-03",
+      "layer": "item-glasses-03"
+    },
+    {
+      "id": "glasses-04",
+      "slot": "glasses",
+      "name": "Лайм",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/glasses-04.png",
+      "width": 647,
+      "height": 261,
+      "animation": "equip-glasses-04",
+      "layer": "item-glasses-04"
+    },
+    {
+      "id": "glasses-05",
+      "slot": "glasses",
+      "name": "Розовый квадрат",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/glasses-05.png",
+      "width": 641,
+      "height": 324,
+      "animation": "equip-glasses-05",
+      "layer": "item-glasses-05"
+    },
+    {
+      "id": "glasses-06",
+      "slot": "glasses",
+      "name": "Голубое небо",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/glasses-06.png",
+      "width": 690,
+      "height": 344,
+      "animation": "equip-glasses-06",
+      "layer": "item-glasses-06"
+    },
+    {
+      "id": "glasses-07",
+      "slot": "glasses",
+      "name": "Конфетти",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/glasses-07.png",
+      "width": 695,
+      "height": 296,
+      "animation": "equip-glasses-07",
+      "layer": "item-glasses-07"
+    },
+    {
+      "id": "glasses-08",
+      "slot": "glasses",
+      "name": "Солнце",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/glasses-08.png",
+      "width": 680,
+      "height": 301,
+      "animation": "equip-glasses-08",
+      "layer": "item-glasses-08"
+    },
+    {
+      "id": "hat-01",
+      "slot": "hat",
+      "name": "Бейсболка",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/hat-01.png",
+      "width": 566,
+      "height": 465,
+      "animation": "equip-hat-01",
+      "layer": "item-hat-01"
+    },
+    {
+      "id": "hat-02",
+      "slot": "hat",
+      "name": "Шляпа звезды",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/hat-02.png",
+      "width": 662,
+      "height": 478,
+      "animation": "equip-hat-02",
+      "layer": "item-hat-02"
+    },
+    {
+      "id": "hat-03",
+      "slot": "hat",
+      "name": "Разноцветная кепка",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/hat-03.png",
+      "width": 615,
+      "height": 449,
+      "animation": "equip-hat-03",
+      "layer": "item-hat-03"
+    },
+    {
+      "id": "hat-04",
+      "slot": "hat",
+      "name": "Волшебник",
+      "unlocked": true,
+      "equipped": false,
+      "file": "assets/wardrobe/hat-04.png",
+      "width": 630,
+      "height": 535,
+      "animation": "equip-hat-04",
+      "layer": "item-hat-04"
+    }
+  ]
+}
